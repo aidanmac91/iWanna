@@ -84,6 +84,11 @@
         {
              label2.textColor=[UIColor redColor];//sets colour to red
         }
+        else if([item.priority isEqualToString:@"1"])//if high
+        {
+            label2.textColor=[UIColor orangeColor];//sets colour to red
+        }
+        
         else//otherwise sets default color;
         {
             label2.textColor= cell.textLabel.textColor = [UIColor colorWithRed:1.0f/255.0f green:46.0f/255.f blue:72.0f/255.0f alpha:1];
@@ -119,6 +124,10 @@
     if([item.priority isEqualToString:@"2"])
     {
         label.textColor=[UIColor redColor];
+    }
+    else if([item.priority isEqualToString:@"1"])//if high
+    {
+        label.textColor=[UIColor orangeColor];//sets colour to red
     }
     else
     {

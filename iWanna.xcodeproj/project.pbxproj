@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3928936818D3050100B879F9 /* Icon-Small-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3928936618D3050100B879F9 /* Icon-Small-40.png */; };
+		3928936918D3050100B879F9 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3928936718D3050100B879F9 /* Icon-Small.png */; };
 		3977263818C3C2E6000D8637 /* IconPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3977263718C3C2E6000D8637 /* IconPickerViewController.m */; };
 		39ABCE9918C8DD6900C4F2D4 /* share.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ABCE9818C8DD6900C4F2D4 /* share.m */; };
 		39ABCE9B18C8E1F800C4F2D4 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ABCE9A18C8E1F800C4F2D4 /* Twitter.framework */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3928936618D3050100B879F9 /* Icon-Small-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40.png"; sourceTree = "<group>"; };
+		3928936718D3050100B879F9 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		3977263618C3C2E6000D8637 /* IconPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconPickerViewController.h; sourceTree = "<group>"; };
 		3977263718C3C2E6000D8637 /* IconPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconPickerViewController.m; sourceTree = "<group>"; };
 		39ABCE9718C8DD6900C4F2D4 /* share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = share.h; sourceTree = "<group>"; };
@@ -117,13 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39BE5A2618C2371800AFF7A9 = {
+		3928936A18D305AD00B879F9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3928936618D3050100B879F9 /* Icon-Small-40.png */,
+				3928936718D3050100B879F9 /* Icon-Small.png */,
 				39D0FCAF18D23D6F00CE0F0A /* default.png */,
 				39D0FCAD18D236F200CE0F0A /* icon.png */,
 				39CA656D18D0AB4C0041F749 /* default@2x.png */,
 				39CA656B18D0A9250041F749 /* icon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		39BE5A2618C2371800AFF7A9 = {
+			isa = PBXGroup;
+			children = (
+				3928936A18D305AD00B879F9 /* Images */,
 				39BE5A3818C2371800AFF7A9 /* iWanna */,
 				39BE5A5718C2371800AFF7A9 /* iWannaTests */,
 				39BE5A3118C2371800AFF7A9 /* Frameworks */,
@@ -293,9 +307,11 @@
 				39BE5A3D18C2371800AFF7A9 /* InfoPlist.strings in Resources */,
 				39D0FCB018D23D6F00CE0F0A /* default.png in Resources */,
 				39D0FCAE18D236F200CE0F0A /* icon.png in Resources */,
+				3928936818D3050100B879F9 /* Icon-Small-40.png in Resources */,
 				39BE5A4618C2371800AFF7A9 /* Main.storyboard in Resources */,
 				39CA656C18D0A9250041F749 /* icon@2x.png in Resources */,
 				39CA656E18D0AB4C0041F749 /* default@2x.png in Resources */,
+				3928936918D3050100B879F9 /* Icon-Small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
