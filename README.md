@@ -9,14 +9,14 @@ A simple To Do list.
 
 
 -demonstrate CRUD functionality for items within each list<br>
--The App uses Storyboards to navigate between screens
--use TableViews to display information 
--List are displayed in ascending alphabetical order
--Persistence in the form of plist
--Local notifications
--Preloads application with sample lists
--Icons for different lists
--Priority for items 
--Strike through for done items
--Badge app icon to show item due today.
-
+-The App uses Storyboards to navigate between screens<br>
+-use TableViews to display information <br>
+-List are displayed in ascending alphabetical order <br>
+-Persistence in the form of plist<br>
+-Local notifications<br>
+-Preloads application with sample lists<br>
+-Icons for different lists<br>
+-Priority for items <br>
+-Strike through for done items<br>
+-Badge app icon to show item due today.<br>
+-Custom icon and launchimage
