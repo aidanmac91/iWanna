@@ -8,7 +8,7 @@ Icons for catergories are from the tutorial above.
 A simple To Do list.
 
 
--demonstrate CRUD functionality for items within each list
+-demonstrate CRUD functionality for items within each list<br>
 -The App uses Storyboards to navigate between screens
 -use TableViews to display information 
 -List are displayed in ascending alphabetical order
